@@ -15,14 +15,14 @@ addBTN.addEventListener("click", function (e) {
             <div class="cicle-image">
               <img
                 id="unchecked-circle"
-                class="w-5 h-5 text-yellow-400 hidde unchecked-circle"
+                class="w-5 h-5 text-yellow-400"
                 src="images/circle-regular.svg"
                 alt="a cicle"
               />
 
               <img
                 id="checked-circle"
-                class="w-5 h-5 text-[#9336B4] hidden checked-circle"
+                class="w-5 h-5 text-[#9336B4] hidden"
                 src="images/circle-check-solid.svg"
                 alt="a circle with a tick"
               />
