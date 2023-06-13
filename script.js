@@ -47,6 +47,7 @@ addBTN.addEventListener("click", function (e) {
   } else {
     subSection.insertAdjacentHTML("beforeend", html);
     saveAddedTask();
+    taskInput.value = "";
   }
 });
 
